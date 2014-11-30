@@ -1,0 +1,1 @@
+{"fields":[{"id":"a","label":"Category","type":"string"},{"id":"b","label":"IMR","type":"string"},{"id":"c","label":"U5MR","type":"string"},{"id":"d","label":"%Under Nutrition","type":"string"}],"data":[["SC","83.00","119.30","53.50"],["ST","84.20","126.60","55.90"],["Other disadvantages","76.00","103.10","47.30"],["Others","61.80","82.60","41.10"]]}

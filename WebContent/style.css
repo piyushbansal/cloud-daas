@@ -1,0 +1,122 @@
+/* CSS Document */
+body{padding:0px; border: solid 3px #0099FF; border-radius: 5px 5px; box-shadow: 10px 10px 5px #298200; width:990px; margin:auto; background:#fff; color:#666; font:14px/18px Georgia, "Times New Roman", Times, serif;}
+/*div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}*/
+ul{list-style-type:none;}
+a{background:#0099FF; color:#fff; text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+/*----TOP PANEL----*/
+#maintopPan{height:277px; background:url(images/headerbg2.gif) 0 0 repeat-x; margin:0 auto;} 
+#topHeaderPan{width:514px; height:277px;  padding: 20px;float:left; background:url(images/header.jpg) 0 0 no-repeat;}
+
+#topHeaderPan ul{width:114px; height:124px; position:absolute; top:119px; }
+#topHeaderPan ul li{width:114px; height:24px; background:url(images/dot-line.gif) 0 100% repeat-x;}
+#topHeaderPan ul li a{display:block; width:102px; height:24px; background:url(images/bullet1.gif) 0 9px no-repeat; font:12px/24px Arial, Helvetica, sans-serif; font-weight:bold; text-decoration:none; padding:0 0 0 12px;}
+#topHeaderPan ul li a:hover{text-decoration:underline; background:url(images/bullet2.gif) 0 9px no-repeat;} 
+#topHeaderPan ul li.resources{width:114px; height:24px; background:none;}
+
+#topHeaderPan img{margin-left: -20px;width:220px; height:53px; position:absolute; top:24px; }
+/*----Top Side Menu--*/
+#topSidemenuPan{width:264px; height:277px; float:right; background:url(images/right-bg.gif) 100% 0 no-repeat #fff; color:#000;}
+#topSidemenuPan ul{width:198px;  margin:0 0 0 20px;}
+#topSidemenuPan ul li{width:99px; height:277px; float:left;}
+
+#topSidemenuPan ul li.home{width:99px; height:277px;}
+#topSidemenuPan ul li.home a{width:99px; height:277px; display:block; background:url(images/home-normal.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#topSidemenuPan ul li.home a:hover{width:99px; height:277px; background:url(images/home-hover.jpg) 0 0 no-repeat;}
+
+#topSidemenuPan ul li.contact a{width:99px; height:277px; display:block; background:url(images/contact-normal.jpg) 0 0 no-repeat; text-indent:-20000px;}
+#topSidemenuPan ul li.contact a:hover{width:99px; height:277px; background:url(images/contact-hover.jpg) 0 0 no-repeat;}
+
+
+
+/*----/TOP PANEL----*/
+
+/*----BODY PANEL----*/
+#bodyPan{width:990px; clear:both;}
+/*----Left Panel----*/
+#leftPan{width:990px; float:left;}
+#leftPan p{padding:0 24px 14px;}
+#leftPan p span{font-weight:bold;}
+#leftPan p.more{width:70px; height:23px;  margin-left:850px;}
+#leftPan p.more a{width:70px; height:23px; display:block; background:url(images/icon2.gif) 0 0 no-repeat #fff; color:#589B02; font:14px/23px "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; text-decoration:none; padding:0 0 0 36px;}
+#leftPan p.more a:hover{background:url(images/icon2.gif) 0 0 no-repeat #fff; color:#046CB8; text-decoration:none;}
+
+#leftPan h2{width:220px; height:100px; background:url(images/icon1.gif) 0 50% no-repeat; text-indent:-20000px; margin:0 0 0 22px;}
+
+#leftPaninleftPan{width:270px; float:left;}
+#leftPaninleftPan h3{height:55px; background:url(images/icon3.gif) 0 0 no-repeat #fff; color:#046CB8; font:24px/40px Arial, Helvetica, sans-serif; padding:30px 0 0 54px; margin:0 0 0 22px;}
+#leftPaninleftPan h4{width:209px; height:90px; background:url(images/image1.jpg) 0 0 no-repeat; margin:0 0 0 22px; text-indent:-2000px;}
+#leftPaninleftPan p.strongtext{font:16px/18px Arial, Helvetica, sans-serif; background:#fff; color:#3A3A3A; font-weight:bold; padding:16px 24px 14px;}
+
+#leftPaninleftPan p.moreone{width:100px; height:23px; margin:0 0 35px;}
+#leftPaninleftPan p.moreone a{width:100px; height:23px; display:block; background:url(images/icon2.gif) 0 0 no-repeat #fff; color:#589B02; font:14px/23px "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; text-decoration:none; padding:0 0 0 36px;}
+#leftPaninleftPan p.moreone a:hover{background:url(images/icon2.gif) 0 0 no-repeat #fff; color:#046CB8; text-decoration:none;}
+
+#leftPaninrightPan{width:235px; float:left;}
+
+#leftPaninrightPan h4{width:209px; height:90px; background:url(images/image2.jpg) 0 0 no-repeat; text-indent:-2000px; margin:85px 0 0;}
+
+#leftPaninrightPan p{padding:0 0 14px;}
+#leftPaninrightPan p.strongtext{font:16px/18px Arial, Helvetica, sans-serif; background:#fff; color:#3A3A3A; font-weight:bold; padding:16px 24px 14px 0;}
+#leftPaninrightPan p span{font-weight:bold;}
+
+#leftPaninrightPan p.moretwo{width:100px; height:23px; margin:0 0 35px;}
+#leftPaninrightPan p.moretwo a{width:100px; height:23px; display:block; background:url(images/icon2.gif) 0 0 no-repeat #fff; color:#589B02; font:14px/23px "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:bold; text-decoration:none; padding:0 0 0 36px;}
+#leftPaninrightPan p.moretwo a:hover{background:url(images/icon2.gif) 0 0 no-repeat #fff; color:#046CB8; text-decoration:none;}
+/*----/Left Panel----*/
+
+/*----Right Panel----*/
+#rightPan{width:273px; float:left; background:url(images/rightpanbg.gif) 0 0 repeat-y;}
+
+#rightPan h2{width:85px; height:74px; background:url(images/icon4.gif) 0 0 no-repeat #fff; color:#3A3A3A; font:14px/18px Arial, Helvetica, sans-serif; padding:8px 0 0 66px; text-transform:uppercase; margin:24px 0 0 53px; }
+#rightPan h2 span{font-size:48px; line-height:32px; background:#fff; color:#61A804; text-transform:none;}
+
+#rightPan ul{width:190px; margin:36px 0 60px 46px;}
+#rightPan ul li.dot{background:url(images/bullet.gif) 0 7px no-repeat; height:47px; padding:0 0 0 20px; font-weight:bold;}
+#rightPan ul li{background:none; height:47px; padding:0 0 0 20px;}
+
+#rightbottomPan{width:273px; height:24px; background:url(images/rightbottompan.gif) 0 0 no-repeat;}
+
+/*----Right Panel----*/
+#footermainPan{height:100px; background:#4C4C4C; color:#fff; clear:both;}
+#footerPan{width:900px; float:left; position:relative;}
+
+#footerPan img{width:218px; height:52px; position:absolute; top:28px; right:10px;}
+
+#footerPan ul{width:320px; position:absolute; top:38px; left:53px;}
+#footerPan li{float:left; font:11px/15px "Trebuchet MS",Arial, Helvetica, sans-serif; font-weight:normal;}
+#footerPan ul li a{padding:0 5px 0; color:#fff; background:#4C4C4C; text-decoration:none;}
+#footerPan ul li a:hover{text-decoration:underline;}
+
+#footerPan ul.templateworld{width:158px; background:#4C4C4C; color:#fff; display:block; position:absolute; top:125px; left:56px;}
+#footerPan ul.templateworld li a{background:#4C4C4C; display:block; color:#fff; text-decoration:none;}
+#footerPan ul.templateworld li a:hover{text-decoration:underline;}
+
+#footerPan p.copyright{background:#4C4C4C; color:#79D000; font:11px/15px Tahoma,Arial, Helvetica, sans-serif; position:absolute; top:74px; right:10px;}
+
+#footerPanhtml{width:75px; height:24px; display:block; position:absolute; top:95px; left:58px;}
+#footerPanhtml a{width:75px; height:24px; background:url(images/arrow1.gif) 90% 50% no-repeat #DFDFDF; display:block; font:14px/24px "Trebuchet MS",Arial, Helvetica, sans-serif; margin:0; padding:0 0 0 5px; color:#111111; text-transform:uppercase; text-decoration:none; font-weight:bold;}
+#footerPanhtml a:hover{background:url(images/arrow2.gif) 90% 50% no-repeat #DFDFDF; color:#111; text-decoration:none;}
+
+#footerPancss{width:75px; height:24px; display:block; position:absolute; top:95px; left:145px;}
+#footerPancss a{width:75px; height:24px; background:url(images/arrow2.gif) 90% 50% no-repeat #DFDFDF; display:block; font:14px/24px "Trebuchet MS",Arial, Helvetica, sans-serif; margin:0; padding:0 0 0 5px; color:#111111; text-transform:uppercase; text-decoration:none; font-weight:bold;}
+#footerPancss a:hover{background:url(images/arrow1.gif) 90% 50% no-repeat #DFDFDF; color:#111; text-decoration:none;}
+
+#table tr:first-child 
+{
+	color:#0099FF;
+}
+
+.fbclass
+{
+	background: white;
+	color:#298200;
+	text-decoration:none;
+	margin-left: -30px;
+}
+
+.fbclass:hover
+{
+	color:#344579;
+}

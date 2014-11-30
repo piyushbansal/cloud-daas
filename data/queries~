@@ -1,0 +1,11 @@
+URL on agriculture krishi:
+?submitquery=select+`Email`%2C`Full+Address`%2C`Phone`%2C`States+Name`+from+cloud.agriculture_krishi_vigyan+where+`States+Name`+like+'Assam'%3B
+
+
+REST on agriculture_krishi
+select `Email`,`Full Address`,`Phone`,`States Name` from cloud.agriculture_krishi_vigyan where `States Name` like 'Assam';
+
+
+GUI on education
+where primary>10000 and pre >20
+submitquery=select+`High+%2F+Secondary+Schools`%2C`Intermediate+%2F+Senior+Secondary+Schools`%2C`Number+of+Senior+Secondary+%2F+Secondary+Education+Board`%2C`Pre-Primary+Schools`%2C`Primary+Schools`%2C`States+%2F+Union+Territories`%2C`Total`%2C`Upper+Primary+Schools`+from+cloud.education_school+where+`Primary+Schools`+%26gt%3B10000+and+`Pre-Primary+Schools`%26gt%3B20%3B

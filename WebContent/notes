@@ -1,0 +1,7 @@
+create table admin (username varchar primary key,password varchar);
+insert into admin (username,password) values('lovlean','qwerty');
+
+#0099FF
+#298200
+
+myfirstcassandradb
